@@ -1,0 +1,33 @@
+{
+  "name": "facelookusers",
+  "version": "1.0.0",
+  "description": "faceLook Users API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm test",
+    "build": "webpack",
+    "dev": "node ./dist/server.js"
+  },
+  "author": "Balaji KR",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.8.4",
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.8.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
